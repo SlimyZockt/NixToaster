@@ -162,7 +162,6 @@ in
       "docker"
     ];
     packages = with pkgs; [
-      nixd
       localsend
       playerctl
       feh
@@ -254,9 +253,8 @@ in
     neovim
     brave
     ffmpeg
-    xdg-desktop-portal
-    xdg-desktop-portal-hyprland
     vim
+    nixd
     piper
     pavucontrol
     wget
@@ -280,11 +278,9 @@ in
     unzip
     ripgrep
     lxappearance
-    wtype
     lf
     aseprite
     godot_4
-    dracula-icon-theme
     fastfetch
     nwg-look
     libsForQt5.qt5ct
@@ -297,18 +293,6 @@ in
     fzf
     fuzzel
   ];
-
-  services.mpd = {
-    enable = true;
-    musicDirectory = "/home/myt/Musik/";
-    extraConfig = ''
-      # must specify one or more outputs in order to play audio!
-      # (e.g. ALSA, PulseAudio, PipeWire), see next sections
-    '';
-
-    # Optional:
-    network.listenAddress = "any"; # if you want to allow non-localhost connections
-  };
 
   environment.localBinInPath = true;
 
