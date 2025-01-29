@@ -281,6 +281,7 @@ in
     lf
     aseprite
     godot_4
+    dracula-icon-theme
     fastfetch
     nwg-look
     libsForQt5.qt5ct
