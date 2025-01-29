@@ -293,6 +293,7 @@ in
     bemoji
     fzf
     fuzzel
+    wtype
   ];
 
   environment.localBinInPath = true;
