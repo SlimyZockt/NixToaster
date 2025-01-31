@@ -193,7 +193,6 @@ in
       texliveTeTeX
       typora
       obsidian
-      pasystray
       cmake
       meson
       cpio
