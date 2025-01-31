@@ -149,6 +149,7 @@ in
     };
   };
 
+  #Asus
   services.asus-numberpad-driver = {
     enable = true;
     layout = "up5401ea";
