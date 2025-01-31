@@ -69,8 +69,6 @@ in
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
 
-  # Enable the KDE Plasma Desktop Environment.
-
   xdg = {
     autostart.enable = true;
     portal = {
