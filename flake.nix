@@ -7,7 +7,7 @@
 
     asus-numberpad-driver = {
       url = "github:asus-linux-drivers/asus-numberpad-driver";
-      inputs.nixpkgs.follows = "unstable";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
