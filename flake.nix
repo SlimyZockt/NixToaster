@@ -11,6 +11,7 @@
   outputs =
     {
       nixpkgs,
+      zen-browser,
       unstable,
       ...
     }@inputs:
