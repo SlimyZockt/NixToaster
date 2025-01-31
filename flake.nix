@@ -5,10 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-24.11";
     unstable.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 
-    asus-numberpad-driver = {
-      url = "github:asus-linux-drivers/asus-numberpad-driver";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    zen-browser.url = "github:MarceColl/zen-browser-flake";
   };
 
   outputs =

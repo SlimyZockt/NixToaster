@@ -250,6 +250,7 @@ in
   environment.systemPackages = with pkgs; [
     unstable.wezterm
     unstable.hyprpicker
+    inputs.zen-browser.packages."${system}".default
     droidcam
     neovim
     brave
