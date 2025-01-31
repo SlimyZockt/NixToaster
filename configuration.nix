@@ -152,7 +152,7 @@ in
   #Asus
   services.asus-numberpad-driver = {
     enable = true;
-    wayland = true;
+    wayland = false;
     config = {
     };
   };
