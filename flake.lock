@@ -3,7 +3,7 @@
     "asus-numberpad-driver": {
       "inputs": {
         "nixpkgs": [
-          "unstable"
+          "nixpkgs"
         ]
       },
       "locked": {
