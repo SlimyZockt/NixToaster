@@ -152,13 +152,8 @@ in
   #Asus
   services.asus-numberpad-driver = {
     enable = true;
-    layout = "up5401ea.py";
     wayland = true;
-    runtimeDir = "/run/user/1000/";
-    waylandDisplay = "wayland-0";
     config = {
-      # e.g. "activation_time" = "0.5";
-      # More Configuration Options
     };
   };
 
