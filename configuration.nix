@@ -151,7 +151,7 @@ in
 
   services.asus-numberpad-driver = {
     enable = true;
-    layout = "ux363ea";
+    layout = "up5401ea";
     wayland = true;
     runtimeDir = "/run/user/1000/";
     waylandDisplay = "wayland-0";
