@@ -12,7 +12,6 @@
     {
       nixpkgs,
       unstable,
-      asus-numberpad-driver,
       ...
     }@inputs:
     let
@@ -24,7 +23,6 @@
         specialArgs = { inherit inputs; };
         modules = [
           ./configuration.nix
-          asus-numberpad-driver.nixosModules.default
         ];
       };
     };
