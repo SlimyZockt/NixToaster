@@ -148,6 +148,19 @@ in
       accelSpeed = "0";
     };
   };
+
+  services.asus-numberpad-driver = {
+    enable = true;
+    layout = "ux363ea";
+    wayland = true;
+    runtimeDir = "/run/user/1000/";
+    waylandDisplay = "wayland-0";
+    config = {
+      # e.g. "activation_time" = "0.5";
+      # More Configuration Options
+    };
+  };
+
   services.ratbagd.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.myt = {
