@@ -190,7 +190,6 @@ in
       pandoc
       texliveTeTeX
       typora
-      obsidian
       cmake
       meson
       cpio
@@ -243,6 +242,7 @@ in
   environment.systemPackages = with pkgs; [
     unstable.wezterm
     unstable.hyprpicker
+    unstable.obsidian
     inputs.zen-browser.packages."${system}".default
     graphite-cli
     neovim
