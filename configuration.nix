@@ -248,7 +248,7 @@ in
     unstable.wezterm
     unstable.hyprpicker
     inputs.zen-browser.packages."${system}".default
-    droidcam
+    graphite-cli
     neovim
     brave
     ffmpeg
@@ -289,9 +289,11 @@ in
     wl-clipboard
     spotify
     nixfmt-rfc-style
+    alejandra
     bemoji
     fzf
     fuzzel
+    spotify-qt
     wtype
   ];
 
