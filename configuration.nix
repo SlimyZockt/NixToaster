@@ -288,7 +288,6 @@ in
     bemoji
     fzf
     fuzzel
-    spotify-qt
     wtype
   ];
 
