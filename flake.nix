@@ -3,10 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-24.11";
-    unstable = {
-      url = "github:nixos/nixpkgs?ref=nixos-unstable";
-      config.allowUnfree = true;
-    };
+    unstable.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     zen-browser.url = "github:MarceColl/zen-browser-flake";
   };
 
