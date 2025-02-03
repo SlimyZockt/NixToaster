@@ -9,7 +9,10 @@
   ...
 }:
 let
-  unstable = inputs.unstable.legacyPackages.x86_64-linux;
+  unstable = import inputs.unstable {
+    system = "x86_64-linux";
+    config.allowUnfree = true;
+  };
 in
 {
   imports = [
