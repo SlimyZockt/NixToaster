@@ -210,10 +210,6 @@ in
     package = pkgs.gitFull;
   };
 
-  programs.sway = {
-    enable = true;
-    wrapperFeatures.gtk = true;
-  };
   programs.fish.enable = true;
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";
@@ -258,7 +254,6 @@ in
     pavucontrol
     wget
     clipboard-jh
-    dunst
     yaru-theme
     waybar
     hyprpolkitagent
