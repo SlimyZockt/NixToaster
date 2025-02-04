@@ -163,8 +163,12 @@ in
       "docker"
     ];
     packages = with pkgs; [
+      wine
       localsend
       playerctl
+      blockbench
+      blender
+      itch
       feh
       tmux
       gcc
