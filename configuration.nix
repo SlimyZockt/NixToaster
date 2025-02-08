@@ -199,6 +199,7 @@ in
       cmake
       meson
       cpio
+      htop
     ];
   };
 
@@ -267,7 +268,6 @@ in
     networkmanagerapplet
     grim
     polychromatic
-    mako
     adapta-kde-theme
     adwaita-qt6
     xorg.xcursorthemes
