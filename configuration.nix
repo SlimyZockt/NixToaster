@@ -9,6 +9,8 @@
   ...
 }:
 let
+
+  pkgs-unstable = inputs.hyprland.inputs.nixpkgs.legacyPackages.${pkgs.stdenv.hostPlatform.system};
   unstable = import inputs.unstable {
     system = "x86_64-linux";
     config.allowUnfree = true;
@@ -38,6 +40,7 @@ in
   hardware.openrazer.enable = true;
   # Intel Graphics
   hardware.graphics = {
+    package = pkgs-unstable.mesa.drivers;
     enable = true;
     extraPackages = with pkgs; [
       # your Open GL, Vulkan and VAAPI drivers
