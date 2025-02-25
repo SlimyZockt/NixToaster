@@ -362,7 +362,7 @@ in
   system.stateVersion = "24.11"; # Did you read the comment?
 
   nix.settings = {
-    nix.settings.trusted-users = [
+    trusted-users = [
       "root"
       "myt"
     ];
