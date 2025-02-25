@@ -9,8 +9,6 @@
   ...
 }:
 let
-
-  pkgs-unstable = inputs.hyprland.inputs.nixpkgs.legacyPackages.${pkgs.stdenv.hostPlatform.system};
   unstable = import inputs.unstable {
     system = "x86_64-linux";
     config.allowUnfree = true;
@@ -40,7 +38,6 @@ in
   hardware.openrazer.enable = true;
   # Intel Graphics
   hardware.graphics = {
-    package = pkgs-unstable.mesa.drivers;
     enable = true;
     extraPackages = with pkgs; [
       # your Open GL, Vulkan and VAAPI drivers
@@ -81,7 +78,7 @@ in
       extraPortals = [
         # pkgs.xdg-desktop-portal
         # pkgs.xdg-desktop-portal-gtk
-        # pkgs.xdg-desktop-portal-hyprland
+        pkgs.xdg-desktop-portal-hyprland
       ];
     };
   };
@@ -212,11 +209,6 @@ in
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
-    # set the flake package
-    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
-    # make sure to also set the portal package, so that they are in sync
-    portalPackage =
-      inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
   };
 
   programs.git = {
