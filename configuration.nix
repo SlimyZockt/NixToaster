@@ -280,7 +280,7 @@ in
     lxappearance
     lf
     aseprite
-    godot_4
+    unstable.godot_4
     dracula-icon-theme
     fastfetch
     nwg-look
