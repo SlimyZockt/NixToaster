@@ -186,7 +186,8 @@ in
       vscode
       libuchardet
       typescript
-      vesktop
+      webcord
+      dissent
       discord
       tailwindcss
       templ
