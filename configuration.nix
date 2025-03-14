@@ -251,7 +251,6 @@ in
     unstable.wezterm
     unstable.hyprpicker
     unstable.obsidian
-    inputs.zen-browser.packages."${system}".default
     graphite-cli
     neovim
     brave
