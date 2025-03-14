@@ -254,6 +254,7 @@ in
     graphite-cli
     neovim
     brave
+    tmux-sessionizer
     ffmpeg
     vim
     nixd
