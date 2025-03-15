@@ -165,6 +165,8 @@ in
     packages = with pkgs; [
       wine
       localsend
+      httpie-desktop
+      httpie
       playerctl
       blockbench
       blender
