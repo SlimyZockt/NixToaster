@@ -202,6 +202,7 @@ in
       meson
       cpio
       htop
+      weylus
     ];
   };
 
