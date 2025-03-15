@@ -301,7 +301,7 @@ in
       jetbrains.pycharm-professional
       jetbrains.clion
     ]
-    ++ (with pkgs.unstable; [
+    ++ (with unstable.pkgs; [
       wezterm
       godot
       hyprpicker
