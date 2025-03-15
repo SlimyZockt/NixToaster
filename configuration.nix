@@ -253,6 +253,7 @@ in
     with pkgs;
     [
       graphite-cli
+      libreoffice
       neovim
       java-language-server
       kotlin-language-server
