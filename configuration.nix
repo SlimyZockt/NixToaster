@@ -303,6 +303,7 @@ in
     ]
     ++ (with unstable.pkgs; [
       wezterm
+      jdk23
       godot
       hyprpicker
       obsidian
