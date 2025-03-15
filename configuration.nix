@@ -248,57 +248,66 @@ in
   };
 
   # List packages installed in system profile. To search, run:
-  environment.systemPackages = with pkgs; [
-    unstable.wezterm
-    unstable.hyprpicker
-    unstable.obsidian
-    unstable.tmux
-    graphite-cli
-    neovim
-    brave
-    tmux-sessionizer
-    ffmpeg
-    vim
-    nixd
-    piper
-    pavucontrol
-    wget
-    clipboard-jh
-    yaru-theme
-    waybar
-    hyprpolkitagent
-    slurp
-    networkmanagerapplet
-    grim
-    polychromatic
-    adapta-kde-theme
-    adwaita-qt6
-    xorg.xcursorthemes
-    networkmanagerapplet
-    udiskie
-    hyprpaper
-    starship
-    unzip
-    ripgrep
-    lxappearance
-    lf
-    aseprite
-    unstable.godot
-    dracula-icon-theme
-    fastfetch
-    nwg-look
-    libsForQt5.qt5ct
-    kdePackages.qt6ct
-    kdePackages.xwaylandvideobridge
-    wl-clipboard
-    spotify
-    nixfmt-rfc-style
-    alejandra
-    bemoji
-    fzf
-    fuzzel
-    wtype
-  ];
+  environment.systemPackages =
+    with pkgs;
+    [
+      graphite-cli
+      neovim
+      java-language-server
+      kotlin-language-server
+      brave
+      tmux-sessionizer
+      ffmpeg
+      vim
+      nixd
+      piper
+      pavucontrol
+      wget
+      clipboard-jh
+      yaru-theme
+      waybar
+      hyprpolkitagent
+      slurp
+      networkmanagerapplet
+      grim
+      polychromatic
+      adapta-kde-theme
+      adwaita-qt6
+      xorg.xcursorthemes
+      networkmanagerapplet
+      udiskie
+      hyprpaper
+      starship
+      unzip
+      ripgrep
+      lxappearance
+      lf
+      aseprite
+      dracula-icon-theme
+      fastfetch
+      nwg-look
+      libsForQt5.qt5ct
+      kdePackages.qt6ct
+      kdePackages.xwaylandvideobridge
+      wl-clipboard
+      spotify
+      nixfmt-rfc-style
+      alejandra
+      bemoji
+      fzf
+      fuzzel
+      wtype
+      jetbrains.idea-ultimate
+      jetbrains.pycharm-professional
+      jetbrains.clion
+    ]
+    ++ (with pkgs.unstable; [
+      wezterm
+      godot
+      hyprpicker
+      obsidian
+      tmux
+    ]);
 
   environment.localBinInPath = true;
 
