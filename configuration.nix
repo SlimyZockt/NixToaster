@@ -305,6 +305,8 @@ in
       wezterm
       jdk23
       godot
+      kotlin
+      kotlin-native
       hyprpicker
       obsidian
       tmux
