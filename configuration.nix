@@ -229,6 +229,8 @@ in
   programs.nix-ld.enable = true;
   programs.dconf.enable = true;
   programs.nix-ld.libraries = with pkgs; [
+    gcc
+    clang
   ];
 
   # Allow unfree packages
