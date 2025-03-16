@@ -303,6 +303,7 @@ in
       jetbrains.pycharm-professional
       jetbrains.clion
       jdk23
+      jdt-language-server
       maven
       groovy
     ]
