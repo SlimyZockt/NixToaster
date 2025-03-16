@@ -231,6 +231,7 @@ in
   programs.nix-ld.libraries = with pkgs; [
     gcc
     clang
+    stdenv.cc.cc.lib
   ];
 
   # Allow unfree packages
