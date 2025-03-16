@@ -229,7 +229,6 @@ in
   programs.nix-ld.enable = true;
   programs.dconf.enable = true;
   programs.nix-ld.libraries = with pkgs; [
-    jdk23
   ];
 
   # Allow unfree packages
@@ -305,6 +304,7 @@ in
       jdk23
       jdt-language-server
       maven
+      clang
       groovy
     ]
     ++ (with unstable.pkgs; [
