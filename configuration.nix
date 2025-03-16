@@ -229,9 +229,6 @@ in
   programs.nix-ld.enable = true;
   programs.dconf.enable = true;
   programs.nix-ld.libraries = with pkgs; [
-    gcc
-    clang
-    stdenv.cc.cc.lib
   ];
 
   # Allow unfree packages
@@ -307,7 +304,7 @@ in
       jdk23
       jdt-language-server
       maven
-      clang
+      clang_19
       clang-tools
       groovy
     ]
