@@ -179,7 +179,6 @@ in
       typescript
       libgcc
       pamixer
-      zig
       gnumake
       cargo
       air
@@ -309,6 +308,7 @@ in
       groovy
     ]
     ++ (with unstable.pkgs; [
+      zig
       wezterm
       godot
       kotlin
