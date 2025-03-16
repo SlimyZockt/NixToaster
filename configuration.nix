@@ -305,7 +305,7 @@ in
       jdt-language-server
       maven
       clang_19
-      clang-tools
+      clang-tools_19
       groovy
     ]
     ++ (with unstable.pkgs; [
