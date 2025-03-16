@@ -302,10 +302,12 @@ in
       jetbrains.idea-ultimate
       jetbrains.pycharm-professional
       jetbrains.clion
+      jdk23
+      maven
+      groovy
     ]
     ++ (with unstable.pkgs; [
       wezterm
-      jdk23
       godot
       kotlin
       kotlin-native
