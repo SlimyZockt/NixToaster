@@ -312,6 +312,7 @@ in
       wezterm
       godot
       kotlin
+      zls
       kotlin-native
       hyprpicker
       obsidian
