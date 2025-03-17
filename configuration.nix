@@ -213,6 +213,7 @@ in
       vulkan-headers
       vulkan-loader
       wayland
+      waylandpp
       wayland-protocols
       ninja
       pandoc
