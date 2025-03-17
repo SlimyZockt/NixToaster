@@ -195,6 +195,7 @@ in
       sqlite
       goose
       sdl3
+      mesa
       xorg.libX11
       xorg.libXext
       xorg.xorgproto
@@ -211,6 +212,9 @@ in
       libjxl
       vulkan-headers
       vulkan-loader
+      wayland
+      wayland-protocols
+      ninja
       pandoc
       texliveTeTeX
       typora
@@ -244,11 +248,7 @@ in
   programs.light.enable = true;
   programs.nix-ld.enable = true;
   programs.dconf.enable = true;
-  programs.nix-ld.libraries = with pkgs; [
-    sdl3
-    vulkan-headers
-    vulkan-loader
-  ];
+  programs.nix-ld.libraries = with pkgs; [ ];
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
