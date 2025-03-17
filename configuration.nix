@@ -194,6 +194,7 @@ in
       pnpm
       sqlite
       goose
+      sdl3
       pandoc
       texliveTeTeX
       typora
