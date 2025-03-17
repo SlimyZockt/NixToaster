@@ -249,7 +249,7 @@ in
   programs.light.enable = true;
   programs.nix-ld.enable = true;
   programs.dconf.enable = true;
-  programs.nix-ld.libraries = with pkgs; [ ];
+  programs.nix-ld.libraries = with pkgs; [ wayland ];
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
