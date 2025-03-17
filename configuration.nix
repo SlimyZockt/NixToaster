@@ -195,6 +195,8 @@ in
       sqlite
       goose
       sdl3
+      vulkan-headers
+      vulkan-loader
       pandoc
       texliveTeTeX
       typora
@@ -229,6 +231,9 @@ in
   programs.nix-ld.enable = true;
   programs.dconf.enable = true;
   programs.nix-ld.libraries = with pkgs; [
+    sdl3
+    vulkan-headers
+    vulkan-loader
   ];
 
   # Allow unfree packages
