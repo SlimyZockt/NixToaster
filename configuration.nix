@@ -195,6 +195,20 @@ in
       sqlite
       goose
       sdl3
+      xorg.libX11
+      xorg.libXext
+      xorg.xorgproto
+      libxkbcommon
+      xorg.libICE
+      xorg.libXi
+      xorg.libXScrnSaver
+      xorg.libXcursor
+      xorg.libXinerama
+      xorg.libXrandr
+      xorg.libXxf86vm
+      libpng
+      libjpeg
+      libjxl
       vulkan-headers
       vulkan-loader
       pandoc
