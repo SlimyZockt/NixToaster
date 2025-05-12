@@ -1,12 +1,6 @@
 #!/usr/bin/env bash
 
-echo $0
-
-FILE=$(readlink -f $0)
-
-echo $FILE
-
-DIR=$(dirname $FILE )
+DIR=$(dirname $(readlink -f $0))
 
 set -e
 pushd $DIR
