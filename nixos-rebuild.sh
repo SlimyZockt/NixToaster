@@ -1,7 +1,15 @@
 #!/usr/bin/env bash
 
+echo $0
+
+FILE=$(readlink -f $0)
+
+echo $FILE
+
+DIR=$(dirname $FILE )
+
 set -e
-pushd $1
+pushd $DIR
 nvim .
 
 git add .
