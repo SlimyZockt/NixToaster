@@ -356,6 +356,8 @@ in
       themechanger
       hyprpicker
       openvpn
+      swww
+      mpvpaper
     ]
     ++ progLangauge;
 
