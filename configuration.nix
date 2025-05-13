@@ -284,6 +284,9 @@ in
       libreoffice
       brave
       tmux-sessionizer
+      networkmanagerapplet
+      networkmanager-openvpn
+      networkmanager
       tmux
       stow
       ffmpeg
