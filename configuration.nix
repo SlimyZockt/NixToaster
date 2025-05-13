@@ -49,6 +49,8 @@ let
     luarocks
     pyright
     rustc
+    rustfmt
+    rustup
     rust-analyzer
     emmet-language-server
     stylua
