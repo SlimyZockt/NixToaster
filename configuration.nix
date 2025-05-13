@@ -394,10 +394,10 @@ in
 
   services.openvpn.servers = {
     HtwVPN = {
-      config = ''config ./vpn/openvpn-HTW-mfa-connect-config.ovpn'';
+      config = ''config vpn/openvpn-HTW-mfa-connect-config.ovpn'';
     };
     PiaPL = {
-      config = ''config ./vpn/poland.ovpn'';
+      config = ''config vpn/poland.ovpn'';
     };
   };
 
