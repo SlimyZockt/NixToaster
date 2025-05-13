@@ -1,88 +1,31 @@
 warning: Git tree '/home/myt/.local/bin/NixToaster' is dirty
 building the system configuration...
 warning: Git tree '/home/myt/.local/bin/NixToaster' is dirty
-these 26 derivations will be built:
-  /nix/store/jqnj2yz9rvf81ddh212hpi5vbpgrd3pc-man-paths.drv
-  /nix/store/gwwhngv9732jv8l3fcwdwxg14p72pwv6-man-cache.drv
-  /nix/store/2d2dswpg69vav01f60q626w7p0rjm7wm-etc-man_db.conf.drv
-  /nix/store/4h4irj29pmsxk6k7h8isxqmb6w2vcqjs-unit-script-openvpn-restart-start.drv
-  /nix/store/2rnxwmbgshjfdgif0bcm5mv3cc27gi05-unit-openvpn-restart.service.drv
-  /nix/store/jxgfxji4m28wfpabpnr8lzmb3i758ska-system-path.drv
-  /nix/store/302gkibxwpmfa4sm720vw3ig3q9lxd1b-dbus-1.drv
-  /nix/store/5v7g1jq4k5jhv48ffalfnvnz1iazlgf9-X-Restart-Triggers-polkit.drv
-  /nix/store/6lvcz4zl5zbwk3cd6499am03pch6d0cs-openvpn-2.6.14_fish-completions.drv
-  /nix/store/80ggrfwqw5zgs72gclkmwqzdsl1w6x42-openvpn-config-PiaPL.drv
-  /nix/store/wf4bipi8lm1n6gdz6nyc17pjhyf3flci-X-Restart-Triggers-dbus.drv
-  /nix/store/l1x39mic59r2p5f8lfhvfciphlbv0q9h-unit-dbus.service.drv
-  /nix/store/87wbl3zicsm41dwc3mphhcy5rjvcylh9-user-units.drv
-  /nix/store/8fhc8cb6xv8d8vdb5qs33q137lfjfv0q-unit-polkit.service.drv
-  /nix/store/qddkxk0fwzbry169jngsaijm71v2mirw-openvpn-config-HtwVPN.drv
-  /nix/store/9j678i2dgk0vgcbiq1cv474vd6bmla99-unit-openvpn-HtwVPN.service.drv
-  /nix/store/iyxhr5jfxxdg6w1rz5qdfi07wvq9j0zn-system_fish-completions.drv
-  /nix/store/k70qiykwk0j1lcxy5jadd0yj71kkdv9i-nixos.conf.drv
-  /nix/store/f584cq1bl7bcc73la94srzhsy99kylgz-unit-openvpn-PiaPL.service.drv
-  /nix/store/pxp8hp9gxyxkk6741gwskfbjpy6pnh9d-X-Restart-Triggers-systemd-modules-load.drv
-  /nix/store/hpfycdi1y6fmm1mqcl5ns7yh2z1fly66-unit-systemd-modules-load.service.drv
-  /nix/store/iclk6irvcj3g1d5p36qfpr38yy1ciwn6-unit-dbus.service.drv
-  /nix/store/jfbfadcwfxxyk0q26c4wyrib8dgvcnly-unit-accounts-daemon.service.drv
-  /nix/store/slfqz999853m6nck7wwn0klfh6d6hdpz-system-units.drv
-  /nix/store/dmx6d0vh52zd2c8h0kx9bidz1fdk93vw-etc.drv
-  /nix/store/n9zw9rv0pghhrags44bnm67kpy49md9v-nixos-system-nixos-25.05.20250510.d89fc19.drv
-building '/nix/store/jxgfxji4m28wfpabpnr8lzmb3i758ska-system-path.drv'...
-building '/nix/store/k70qiykwk0j1lcxy5jadd0yj71kkdv9i-nixos.conf.drv'...
-building '/nix/store/qddkxk0fwzbry169jngsaijm71v2mirw-openvpn-config-HtwVPN.drv'...
-building '/nix/store/80ggrfwqw5zgs72gclkmwqzdsl1w6x42-openvpn-config-PiaPL.drv'...
-building '/nix/store/4h4irj29pmsxk6k7h8isxqmb6w2vcqjs-unit-script-openvpn-restart-start.drv'...
-building '/nix/store/6lvcz4zl5zbwk3cd6499am03pch6d0cs-openvpn-2.6.14_fish-completions.drv'...
-building '/nix/store/jqnj2yz9rvf81ddh212hpi5vbpgrd3pc-man-paths.drv'...
-building '/nix/store/pxp8hp9gxyxkk6741gwskfbjpy6pnh9d-X-Restart-Triggers-systemd-modules-load.drv'...
-building '/nix/store/iyxhr5jfxxdg6w1rz5qdfi07wvq9j0zn-system_fish-completions.drv'...
-building '/nix/store/9j678i2dgk0vgcbiq1cv474vd6bmla99-unit-openvpn-HtwVPN.service.drv'...
-building '/nix/store/f584cq1bl7bcc73la94srzhsy99kylgz-unit-openvpn-PiaPL.service.drv'...
-building '/nix/store/2rnxwmbgshjfdgif0bcm5mv3cc27gi05-unit-openvpn-restart.service.drv'...
-building '/nix/store/hpfycdi1y6fmm1mqcl5ns7yh2z1fly66-unit-systemd-modules-load.service.drv'...
-building '/nix/store/gwwhngv9732jv8l3fcwdwxg14p72pwv6-man-cache.drv'...
-building '/nix/store/5v7g1jq4k5jhv48ffalfnvnz1iazlgf9-X-Restart-Triggers-polkit.drv'...
-building '/nix/store/302gkibxwpmfa4sm720vw3ig3q9lxd1b-dbus-1.drv'...
-building '/nix/store/jfbfadcwfxxyk0q26c4wyrib8dgvcnly-unit-accounts-daemon.service.drv'...
-building '/nix/store/wf4bipi8lm1n6gdz6nyc17pjhyf3flci-X-Restart-Triggers-dbus.drv'...
-building '/nix/store/8fhc8cb6xv8d8vdb5qs33q137lfjfv0q-unit-polkit.service.drv'...
-building '/nix/store/iclk6irvcj3g1d5p36qfpr38yy1ciwn6-unit-dbus.service.drv'...
-building '/nix/store/l1x39mic59r2p5f8lfhvfciphlbv0q9h-unit-dbus.service.drv'...
-building '/nix/store/slfqz999853m6nck7wwn0klfh6d6hdpz-system-units.drv'...
-building '/nix/store/87wbl3zicsm41dwc3mphhcy5rjvcylh9-user-units.drv'...
-building '/nix/store/2d2dswpg69vav01f60q626w7p0rjm7wm-etc-man_db.conf.drv'...
-building '/nix/store/dmx6d0vh52zd2c8h0kx9bidz1fdk93vw-etc.drv'...
-building '/nix/store/n9zw9rv0pghhrags44bnm67kpy49md9v-nixos-system-nixos-25.05.20250510.d89fc19.drv'...
-stopping the following units: accounts-daemon.service, systemd-modules-load.service
 activating the configuration...
 setting up /etc...
 reloading user units for myt...
 restarting sysinit-reactivation.target
-reloading the following units: dbus.service
-restarting the following units: polkit.service
-starting the following units: accounts-daemon.service, systemd-modules-load.service
-the following new units were started: NetworkManager-dispatcher.service, sysinit-reactivation.target, systemd-tmpfiles-resetup.service
+the following new units were started: NetworkManager-dispatcher.service
 warning: the following units failed: openvpn-HtwVPN.service, openvpn-PiaPL.service
 ● openvpn-HtwVPN.service - OpenVPN instance ‘HtwVPN’
      Loaded: loaded (/etc/systemd/system/openvpn-HtwVPN.service; enabled; preset: ignored)
-     Active: activating (auto-restart) (Result: exit-code) since Tue 2025-05-13 11:18:09 CEST; 63ms ago
- Invocation: 114b102acc824144a38071656b4fbcff
-    Process: 27934 ExecStart=openvpn --suppress-timestamps --config /nix/store/38cmdcrcbvzkh6d9bh34xc74f8gvkplv-openvpn-config-HtwVPN (code=exited, status=1/FAILURE)
-   Main PID: 27934 (code=exited, status=1/FAILURE)
-         IP: 0B in, 0B out
-         IO: 0B read, 0B written
-   Mem peak: 1.6M
-        CPU: 5ms
-
-● openvpn-PiaPL.service - OpenVPN instance ‘PiaPL’
-     Loaded: loaded (/etc/systemd/system/openvpn-PiaPL.service; enabled; preset: ignored)
-     Active: activating (auto-restart) (Result: exit-code) since Tue 2025-05-13 11:18:09 CEST; 72ms ago
- Invocation: b83547c06d4e441093b8d54dfa34ce19
-    Process: 27935 ExecStart=openvpn --suppress-timestamps --config /nix/store/2hyxhgsxj45c3myiw879iysb65785sxq-openvpn-config-PiaPL (code=exited, status=1/FAILURE)
-   Main PID: 27935 (code=exited, status=1/FAILURE)
+     Active: activating (auto-restart) (Result: exit-code) since Tue 2025-05-13 11:21:08 CEST; 92ms ago
+ Invocation: 49b6f6f4dc8d4a3fb16e5fed17d49bdb
+    Process: 28400 ExecStart=openvpn --suppress-timestamps --config /nix/store/38cmdcrcbvzkh6d9bh34xc74f8gvkplv-openvpn-config-HtwVPN (code=exited, status=1/FAILURE)
+   Main PID: 28400 (code=exited, status=1/FAILURE)
          IP: 0B in, 0B out
          IO: 0B read, 0B written
    Mem peak: 1.8M
-        CPU: 5ms
+        CPU: 6ms
+
+● openvpn-PiaPL.service - OpenVPN instance ‘PiaPL’
+     Loaded: loaded (/etc/systemd/system/openvpn-PiaPL.service; enabled; preset: ignored)
+     Active: activating (auto-restart) (Result: exit-code) since Tue 2025-05-13 11:21:08 CEST; 95ms ago
+ Invocation: 8835909fa41d424dbf557efb6a26005e
+    Process: 28401 ExecStart=openvpn --suppress-timestamps --config /nix/store/2hyxhgsxj45c3myiw879iysb65785sxq-openvpn-config-PiaPL (code=exited, status=1/FAILURE)
+   Main PID: 28401 (code=exited, status=1/FAILURE)
+         IP: 0B in, 0B out
+         IO: 0B read, 0B written
+   Mem peak: 1.5M
+        CPU: 7ms
 warning: error(s) occurred while switching to the new configuration
