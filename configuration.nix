@@ -48,6 +48,8 @@ let
     lua-language-server
     luarocks
     pyright
+    rustc
+    rust-analyzer
     emmet-language-server
     stylua
     gdtoolkit_4
