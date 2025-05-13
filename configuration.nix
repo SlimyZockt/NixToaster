@@ -9,11 +9,6 @@
   ...
 }:
 let
-  # unstable = import inputs.unstable {
-  #   inherit system;
-  #   config.allowUnfree = true;
-  # };
-
   progLangauge = with pkgs; [
     go
     java-language-server
