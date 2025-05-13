@@ -54,6 +54,8 @@ let
     rust-analyzer
     emmet-language-server
     stylua
+    htmx-lsp
+    tailwindcss-language-server
     yarn
     gdtoolkit_4
     isort
