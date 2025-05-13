@@ -14,7 +14,6 @@ let
     java-language-server
     kotlin-language-server
     gopls
-    cargo
     gcc
     nodejs_20
     typescript
@@ -49,10 +48,10 @@ let
     luarocks
     pyright
     rust
-    rust-analyzer
     emmet-language-server
     yarn
     stylua
+    gdtoolkit_4
     isort
   ];
 
