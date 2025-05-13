@@ -48,6 +48,10 @@ let
     lua-language-server
     luarocks
     pyright
+    emmet-language-server
+    stylua
+    gdtoolkit_4
+    isort
   ];
 
 in
