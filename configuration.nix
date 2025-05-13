@@ -49,7 +49,6 @@ let
     luarocks
     pyright
     rust
-    rust-analyzer
     emmet-language-server
     yarn
     stylua
