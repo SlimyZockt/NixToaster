@@ -55,7 +55,6 @@ let
     stylua
     gdtoolkit_4
     isort
-    rubyPackages.htmlbeautifier
   ];
 
 in
@@ -284,73 +283,75 @@ in
   programs.nm-applet.enable = true;
 
   # List packages installed in system profile. To search, run:
-  environment.systemPackages = with pkgs; [
-    libreoffice
-    brave
-    tmux-sessionizer
-    networkmanagerapplet
-    networkmanager-openvpn
-    networkmanager
-    tmux
-    stow
-    ffmpeg
-    vim
-    piper
-    pavucontrol
-    wget
-    clipboard-jh
-    yaru-theme
-    waybar
-    hyprpolkitagent
-    slurp
-    grim
-    polychromatic
-    openvpn
-    adapta-kde-theme
-    adwaita-qt6
-    xorg.xcursorthemes
-    hyprpaper
-    starship
-    unzip
-    ripgrep
-    lxappearance
-    lf
-    aseprite
-    dracula-icon-theme
-    fastfetch
-    nwg-look
-    libsForQt5.qt5ct
-    kdePackages.qt6ct
-    wl-clipboard
-    spotify
-    nixfmt-rfc-style
-    alejandra
-    bemoji
-    fzf
-    fuzzel
-    wtype
-    jetbrains.idea-ultimate
-    jetbrains.pycharm-professional
-    jetbrains.clion
-    gamescope
-    bottles
-    heroic
-    lutris
-    carapace
-    logmein-hamachi
-    haguichi
-    colloid-kde
-    colloid-gtk-theme
-    colloid-icon-theme
-    blueman
-    killall
-    miru
-    kdePackages.qtstyleplugin-kvantum
-    themechanger
-    hyprpicker
-    openvpn
-  ];
-  # ++ progLangauge;
+  environment.systemPackages =
+    with pkgs;
+    [
+      libreoffice
+      brave
+      tmux-sessionizer
+      networkmanagerapplet
+      networkmanager-openvpn
+      networkmanager
+      tmux
+      stow
+      ffmpeg
+      vim
+      piper
+      pavucontrol
+      wget
+      clipboard-jh
+      yaru-theme
+      waybar
+      hyprpolkitagent
+      slurp
+      grim
+      polychromatic
+      openvpn
+      adapta-kde-theme
+      adwaita-qt6
+      xorg.xcursorthemes
+      hyprpaper
+      starship
+      unzip
+      ripgrep
+      lxappearance
+      lf
+      aseprite
+      dracula-icon-theme
+      fastfetch
+      nwg-look
+      libsForQt5.qt5ct
+      kdePackages.qt6ct
+      wl-clipboard
+      spotify
+      nixfmt-rfc-style
+      alejandra
+      bemoji
+      fzf
+      fuzzel
+      wtype
+      jetbrains.idea-ultimate
+      jetbrains.pycharm-professional
+      jetbrains.clion
+      gamescope
+      bottles
+      heroic
+      lutris
+      carapace
+      logmein-hamachi
+      haguichi
+      colloid-kde
+      colloid-gtk-theme
+      colloid-icon-theme
+      blueman
+      killall
+      miru
+      kdePackages.qtstyleplugin-kvantum
+      themechanger
+      hyprpicker
+      openvpn
+    ]
+    ++ progLangauge;
 
   environment.localBinInPath = true;
 
