@@ -54,7 +54,6 @@ let
     stylua
     gdtoolkit_4
     isort
-    ruby3.3-htmlbeautifier
   ];
 
 in
