@@ -59,6 +59,7 @@ let
     yarn
     gdtoolkit_4
     isort
+    vscode-langservers-extracted
   ];
 
 in
