@@ -47,6 +47,15 @@ let
     lua
     lua-language-server
     luarocks
+    pyright
+    rust
+    rust-analyzer
+    emmet-language-server
+    yarn
+    stylua
+    gdtoolkit_4
+    isort
+    rubyPackages.htmlbeautifier
   ];
 
 in
