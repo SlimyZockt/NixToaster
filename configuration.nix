@@ -229,8 +229,6 @@ in
     vimAlias = true;
   };
 
-  # Install firefox.
-  # programs.firefox.enable = true;
   # services.gnome.gnome-keyring.enable = true;
   programs.hyprland = {
     enable = true;
