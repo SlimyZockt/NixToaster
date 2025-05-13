@@ -6,26 +6,4 @@ setting up /etc...
 reloading user units for myt...
 restarting sysinit-reactivation.target
 the following new units were started: NetworkManager-dispatcher.service
-warning: the following units failed: openvpn-HtwVPN.service, openvpn-PiaPL.service
-● openvpn-HtwVPN.service - OpenVPN instance ‘HtwVPN’
-     Loaded: loaded (/etc/systemd/system/openvpn-HtwVPN.service; enabled; preset: ignored)
-     Active: activating (auto-restart) (Result: exit-code) since Tue 2025-05-13 11:21:08 CEST; 92ms ago
- Invocation: 49b6f6f4dc8d4a3fb16e5fed17d49bdb
-    Process: 28400 ExecStart=openvpn --suppress-timestamps --config /nix/store/38cmdcrcbvzkh6d9bh34xc74f8gvkplv-openvpn-config-HtwVPN (code=exited, status=1/FAILURE)
-   Main PID: 28400 (code=exited, status=1/FAILURE)
-         IP: 0B in, 0B out
-         IO: 0B read, 0B written
-   Mem peak: 1.8M
-        CPU: 6ms
-
-● openvpn-PiaPL.service - OpenVPN instance ‘PiaPL’
-     Loaded: loaded (/etc/systemd/system/openvpn-PiaPL.service; enabled; preset: ignored)
-     Active: activating (auto-restart) (Result: exit-code) since Tue 2025-05-13 11:21:08 CEST; 95ms ago
- Invocation: 8835909fa41d424dbf557efb6a26005e
-    Process: 28401 ExecStart=openvpn --suppress-timestamps --config /nix/store/2hyxhgsxj45c3myiw879iysb65785sxq-openvpn-config-PiaPL (code=exited, status=1/FAILURE)
-   Main PID: 28401 (code=exited, status=1/FAILURE)
-         IP: 0B in, 0B out
-         IO: 0B read, 0B written
-   Mem peak: 1.5M
-        CPU: 7ms
-warning: error(s) occurred while switching to the new configuration
+Done. The new configuration is /nix/store/rkcs8w898qlgkgqnrxciqa99m3jsinvi-nixos-system-nixos-25.05.20250510.d89fc19
