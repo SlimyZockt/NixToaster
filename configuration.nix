@@ -54,6 +54,7 @@ let
     rust-analyzer
     emmet-language-server
     stylua
+    yarn
     gdtoolkit_4
     isort
   ];
