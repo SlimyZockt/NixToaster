@@ -52,6 +52,7 @@ let
     lua
     lua-language-server
     luarocks
+
   ];
 
 in
@@ -278,6 +279,8 @@ in
     ];
   };
 
+  programs.openvpn3.enable = true;
+
   # List packages installed in system profile. To search, run:
   environment.systemPackages =
     with pkgs;
@@ -300,6 +303,7 @@ in
       networkmanagerapplet
       grim
       polychromatic
+      openvpn
       adapta-kde-theme
       adwaita-qt6
       xorg.xcursorthemes
@@ -383,6 +387,7 @@ in
   # List services that you want to enable:
   services.blueman.enable = true;
   services.logmein-hamachi.enable = true;
+
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
   security.polkit.enable = true;
