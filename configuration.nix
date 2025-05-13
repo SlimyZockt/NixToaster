@@ -392,6 +392,15 @@ in
   # networking.firewall.allowedTCPPorts = [ 53317 ];
   # networking.firewall.allowedUDPPorts = [ 53317 ];
 
+  services.openvpn.servers = {
+    HtwVPN = {
+      config = ''config ./vpn/openvpn-HTW-mfa-connect-config.ovpn'';
+    };
+    PiaPL = {
+      config = ''config ./vpn/poland.ovpn'';
+    };
+  };
+
   # Or disable the firewall altogether.
   networking.firewall.enable = false;
   system.autoUpgrade = {
