@@ -280,6 +280,7 @@ in
   };
 
   programs.openvpn3.enable = true;
+  programs.nm-applet.enable = true;
 
   # List packages installed in system profile. To search, run:
   environment.systemPackages =
@@ -300,14 +301,12 @@ in
       waybar
       hyprpolkitagent
       slurp
-      networkmanagerapplet
       grim
       polychromatic
       openvpn
       adapta-kde-theme
       adwaita-qt6
       xorg.xcursorthemes
-      networkmanagerapplet
       hyprpaper
       starship
       unzip
