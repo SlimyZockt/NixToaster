@@ -47,7 +47,6 @@ let
     lua
     lua-language-server
     luarocks
-
   ];
 
 in
@@ -344,6 +343,7 @@ in
       kdePackages.qtstyleplugin-kvantum
       themechanger
       hyprpicker
+      openvpn
     ]
     ++ progLangauge;
 
