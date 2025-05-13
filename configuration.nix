@@ -310,6 +310,7 @@ in
       hyprpolkitagent
       slurp
       grim
+      waypaper
       polychromatic
       openvpn
       adapta-kde-theme
