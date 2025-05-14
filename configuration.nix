@@ -293,6 +293,7 @@ in
     [
       libreoffice
       brave
+      jq
       tmux-sessionizer
       networkmanagerapplet
       networkmanager-openvpn
