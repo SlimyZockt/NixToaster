@@ -329,7 +329,7 @@ in
       libsForQt5.qt5ct
       kdePackages.qt6ct
       wl-clipboard
-      spotify
+      spotify-unwrapped
       nixfmt-rfc-style
       alejandra
       bemoji
