@@ -358,7 +358,7 @@ in
       openvpn
       swww
       mpvpaper
-      calc
+      cloc
     ]
     ++ progLangauge;
 
