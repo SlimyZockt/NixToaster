@@ -129,7 +129,7 @@ in
     package = config.boot.kernelPackages.nvidiaPackages.stable;
   };
 
-  # Set your time zone
+  # Set your time zone.
   time.timeZone = "Europe/Berlin";
 
   # Select internationalisation properties
@@ -295,7 +295,8 @@ in
     with pkgs;
     [
       libreoffice
-      (brave.override { enableWideVine = true; })
+      brave
+      netflix
       jq
       tmux-sessionizer
       tmux
