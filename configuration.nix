@@ -80,7 +80,9 @@ in
 
   # Enable networking
   networking.networkmanager.enable = true;
-
+  networking.networkmanager.plugins = with pkgs; [
+    networkmanager-openvpn
+  ];
   # Thunderbolt
   services.hardware.bolt.enable = true;
   # Intel Graphics
@@ -295,9 +297,6 @@ in
       brave
       jq
       tmux-sessionizer
-      networkmanagerapplet
-      networkmanager-openvpn
-      networkmanager
       tmux
       stow
       ffmpeg

@@ -8,7 +8,7 @@ nvim .
 
 git add .
 
-git diff -U0 *.nixa
+git diff -U0 *.nix
 
 git commit -am "$(($(git log -1 --pretty=%B) + 1))"
 echo "Nixos Rebulding ..."
