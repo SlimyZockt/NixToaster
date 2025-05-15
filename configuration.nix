@@ -330,7 +330,6 @@ in
       fastfetch
       nwg-look
       libsForQt5.qt5ct
-      kdePackage.qt6ct
       wl-clipboard
       spotify-unwrapped
       nixfmt-rfc-style
@@ -356,6 +355,7 @@ in
       killall
       miru
       kdePackages.qtstyleplugin-kvantum
+      kdePackages.qt6ct
       themechanger
       hyprpicker
       openvpn
