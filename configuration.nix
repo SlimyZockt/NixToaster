@@ -324,6 +324,7 @@ in
       starship
       unzip
       ripgrep
+      opencollect
       lxappearance
       lf
       aseprite
