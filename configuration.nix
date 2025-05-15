@@ -84,8 +84,6 @@ in
   networking.dhcpcd.enable = false;
   networking.networkmanager.plugins = with pkgs; [
     networkmanager-openvpn
-    networkmanager-vpnc
-    networkmanager-openconnect
   ];
 
   # Thunderbolt
@@ -366,7 +364,7 @@ in
       swww
       mpvpaper
       cloc
-      kdePackages.plasma-nm
+      networkmanager-openvpn
     ]
     ++ progLangauge;
 
