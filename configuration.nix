@@ -237,7 +237,6 @@ in
       winetricks
       protontricks
       protonup-qt
-      network-manager-applet
     ];
   };
 
@@ -312,6 +311,7 @@ in
       yaru-theme
       waybar
       hyprpolkitagent
+      networkmanagerapplet
       slurp
       grim
       waypaper
