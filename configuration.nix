@@ -80,6 +80,8 @@ in
 
   # Enable networking
   networking.networkmanager.enable = true;
+  networking.useDHCP = false;
+  networking.dhcpcd.enable = false;
   networking.networkmanager.plugins = with pkgs; [
     networkmanager-openvpn
     networkmanager-vpnc
