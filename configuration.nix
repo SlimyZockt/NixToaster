@@ -289,8 +289,8 @@ in
     ];
   };
 
-  programs.openvpn3.enable = true;
-  programs.nm-applet.enable = true;
+  # programs.openvpn3.enable = true;
+  # programs.nm-applet.enable = true;
 
   # List packages installed in system profile. To search, run:
   environment.systemPackages =
