@@ -80,8 +80,6 @@ in
 
   # Enable networking
   networking.networkmanager.enable = true;
-  networking.useDHCP = false;
-  networking.dhcpcd.enable = false;
   networking.networkmanager.plugins = with pkgs; [
     networkmanager-openvpn
   ];
@@ -297,7 +295,7 @@ in
     with pkgs;
     [
       libreoffice
-      brave
+      (brave.override { enableWideVine = true; })
       jq
       tmux-sessionizer
       tmux
