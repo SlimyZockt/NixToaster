@@ -330,7 +330,7 @@ in
       fastfetch
       nwg-look
       libsForQt5.qt5ct
-      kdePackageOpenConnects.qt6ct
+      kdePackage.qt6ct
       wl-clipboard
       spotify-unwrapped
       nixfmt-rfc-style
