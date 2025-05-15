@@ -360,6 +360,7 @@ in
       themechanger
       hyprpicker
       openvpn
+      openvpn3
       swww
       mpvpaper
       cloc
