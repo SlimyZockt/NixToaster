@@ -363,6 +363,7 @@ in
       swww
       mpvpaper
       cloc
+      kdePackages.plasma-nm
     ]
     ++ progLangauge;
 
