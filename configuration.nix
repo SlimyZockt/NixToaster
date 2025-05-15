@@ -237,6 +237,7 @@ in
       winetricks
       protontricks
       protonup-qt
+      network-manager-applet
     ];
   };
 
