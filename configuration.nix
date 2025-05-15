@@ -316,7 +316,6 @@ in
       grim
       waypaper
       polychromatic
-      openvpn
       adapta-kde-theme
       adwaita-qt6
       xorg.xcursorthemes
@@ -324,7 +323,6 @@ in
       starship
       unzip
       ripgrep
-      opencollect
       lxappearance
       lf
       aseprite
