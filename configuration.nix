@@ -362,6 +362,7 @@ in
       mpvpaper
       cloc
       networkmanager-openvpn
+      gparted
     ]
     ++ progLangauge;
 
