@@ -273,6 +273,9 @@ in
   programs.nix-ld.libraries = with pkgs; [
     wayland
     raylib
+    xorg.libX11.dev
+    xorg.libXft
+    xorg.libXinerama
   ];
 
   # Allow unfree packages
