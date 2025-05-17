@@ -272,10 +272,15 @@ in
   programs.dconf.enable = true;
   programs.nix-ld.libraries = with pkgs; [
     wayland
+    glfw
+
     raylib
-    xorg.libX11.dev
-    xorg.libXft
-    xorg.libXinerama
+    pkgs.xorg.libX11
+    pkgs.xorg.libX11.dev
+    pkgs.xorg.libXcursor
+    pkgs.xorg.libXi
+    pkgs.xorg.libXinerama
+    pkgs.xorg.libXrandr
   ];
 
   # Allow unfree packages
