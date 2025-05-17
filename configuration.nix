@@ -270,7 +270,10 @@ in
   programs.light.enable = true;
   programs.nix-ld.enable = true;
   programs.dconf.enable = true;
-  programs.nix-ld.libraries = with pkgs; [ wayland ];
+  programs.nix-ld.libraries = with pkgs; [
+    wayland
+    raylib
+  ];
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
