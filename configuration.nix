@@ -236,6 +236,7 @@ in
       protontricks
       protonup-qt
       gimp
+      kdePackages.plasma-systemmonitor
     ];
   };
 
