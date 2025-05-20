@@ -194,7 +194,7 @@ in
   ];
 
   virtualisation.docker.enable = true;
-
+  virtualisation.docker.storageDriver = "btrfs";
   services.ratbagd.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.myt = {
@@ -235,6 +235,7 @@ in
       winetricks
       protontricks
       protonup-qt
+      gimp
     ];
   };
 
