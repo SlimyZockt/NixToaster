@@ -236,7 +236,7 @@ in
       protontricks
       protonup-qt
       gimp
-      kdePackages.plasma-systemmonitor
+      budgie-systemmonitor-applet
     ];
   };
 
