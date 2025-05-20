@@ -236,7 +236,7 @@ in
       protontricks
       protonup-qt
       gimp
-      budgie-systemmonitor-applet
+      lxde.lxtask
     ];
   };
 
