@@ -237,6 +237,7 @@ in
       protonup-qt
       gimp
       lxde.lxtask
+      mgba
     ];
   };
 
