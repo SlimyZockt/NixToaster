@@ -235,7 +235,7 @@ in
       winetricks
       protontricks
       protonup-qt
-      gimp
+      gimp3
       lxde.lxtask
       mgba
     ];
