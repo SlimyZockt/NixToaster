@@ -238,6 +238,7 @@ in
       gimp3
       lxde.lxtask
       mgba
+      rgbds
     ];
   };
 
