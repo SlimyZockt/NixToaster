@@ -225,6 +225,7 @@ in
     packages = with pkgs; [
       wine
       localsend
+      turso-cli
       httpie-desktop
       httpie
       playerctl
