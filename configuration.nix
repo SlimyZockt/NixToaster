@@ -253,6 +253,7 @@ in
       lxde.lxtask
       mgba
       rgbds
+      parallel
     ];
   };
 
