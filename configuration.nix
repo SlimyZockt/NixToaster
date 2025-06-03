@@ -158,7 +158,7 @@ in
       videoDrivers = [ "nvidia" ];
     };
 
-    displayManager.sddm.enable = true;
+    # displayManager.sddm.enable = true;
     desktopManager.plasma6.enable = true;
     blueman.enable = true;
     logmein-hamachi.enable = true;
@@ -267,6 +267,7 @@ in
     light.enable = true;
     nix-ld.enable = true;
     dconf.enable = true;
+    hyprlock.enable = true;
 
     steam = {
       enable = true;
