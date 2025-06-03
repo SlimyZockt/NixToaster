@@ -1,13 +1,11 @@
 #!/usr/bin/env bash
+set -e
 
 DIR=$(dirname $(readlink -f $0))
-
-set -e
 pushd $DIR
 nvim .
 
 git add .
-
 git diff -U0 *.nix
 
 git commit -am "$(($(git log -1 --pretty=%B) + 1))"
