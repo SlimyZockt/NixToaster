@@ -10,6 +10,7 @@
 }:
 let
   progLangauge = with pkgs; [
+    bun
     go
     java-language-server
     kotlin-language-server
