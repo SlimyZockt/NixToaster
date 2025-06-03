@@ -11,7 +11,7 @@ git commit -am "$(($(git log -1 --pretty=%B) + 1))"
 
 sudo nixos-rebuild switch --flake .
 
-cp ./gs.sh ~/.local/bin/
-cp ./nixos-rebuild.sh ~/.local/bin/
+ln -s ./gs.sh ~/.local/bin/gs
+ln -s ./nixos-rebuild.sh ~/.local/bin/nixos-rebuild
 
 popd

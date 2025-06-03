@@ -169,7 +169,7 @@ in
 
     # Thunderbolt
     hardware.bolt.enable = true;
-    services.ratbagd.enable = true;
+    ratbagd.enable = true;
 
     # Enable CUPS to print documents.
     printing.enable = true;
