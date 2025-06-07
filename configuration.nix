@@ -83,6 +83,7 @@ in
   # Enable networking
   networking.wireless.iwd.enable = true;
   networking.networkmanager.enable = true;
+  networking.networkmanager.wifi.backend = "iwd";
   networking.networkmanager.plugins = with pkgs; [
     networkmanager-openvpn
     networkmanager-openconnect
