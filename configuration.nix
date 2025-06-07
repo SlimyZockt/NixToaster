@@ -81,6 +81,7 @@ in
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
 
   # Enable networking
+  networking.wireless.iwd.enable = true;
   networking.networkmanager.enable = true;
   networking.networkmanager.plugins = with pkgs; [
     networkmanager-openvpn
@@ -102,6 +103,9 @@ in
     # intel-media-sdk   # for older GPUs
     # ];
   };
+
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
 
   hardware.nvidia = {
 
@@ -230,6 +234,7 @@ in
       "docker"
     ];
     packages = with pkgs; [
+      iwgtk
       wine
       localsend
       turso-cli
