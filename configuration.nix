@@ -81,8 +81,6 @@ in
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
 
   # Enable networking
-  networking.wireless.enable = true;
-  networking.wireless.userControlled.enable = true;
   networking.networkmanager.enable = true;
   networking.networkmanager.plugins = with pkgs; [
     networkmanager-openvpn
@@ -93,6 +91,13 @@ in
     networkmanager-iodine
     networkmanager-fortisslvpn
   ];
+
+  # Disable NetworkManager's internal DNS resolution
+  networking.networkmanager.dns = "none";
+
+  # These options are unnecessary when managing DNS ourselves
+  networking.useDHCP = false;
+  networking.dhcpcd.enable = false;
 
   # Intel Graphics
   hardware.graphics = {
