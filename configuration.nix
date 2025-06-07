@@ -352,7 +352,7 @@ in
       yaru-theme
       waybar
       hyprpolkitagent
-      networkmanagerapplet
+      # networkmanagerapplet
       kdePackages.plasma-nm
       slurp
       grim
