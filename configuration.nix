@@ -84,6 +84,12 @@ in
   networking.networkmanager.enable = true;
   networking.networkmanager.plugins = with pkgs; [
     networkmanager-openvpn
+    networkmanager-openconnect
+    networkmanager-vpnc
+    networkmanager-l2tp
+    networkmanager-sstp
+    networkmanager-iodine
+    networkmanager-fortisslvpn
   ];
 
   # Intel Graphics
@@ -327,15 +333,15 @@ in
       pkgs.xorg.libXrandr
     ];
 
+    nm-applet.enable = true;
   };
-  # programs.openvpn3.enable = true;
-  # programs.nm-applet.enable = true;
 
   # List packages installed in system profile. To search, run:
   environment.systemPackages =
     with pkgs;
     [
       mangohud
+      openconnect
       libreoffice
       brave
       netflix
@@ -352,8 +358,6 @@ in
       yaru-theme
       waybar
       hyprpolkitagent
-      # networkmanagerapplet
-      kdePackages.plasma-nm
       slurp
       grim
       waypaper
