@@ -353,6 +353,7 @@ in
       waybar
       hyprpolkitagent
       networkmanagerapplet
+      kdePackages.plasma-nm
       slurp
       grim
       waypaper
