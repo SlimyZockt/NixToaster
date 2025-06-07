@@ -81,9 +81,9 @@ in
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
 
   # Enable networking
-  networking.wireless.iwd.enable = true;
+  networking.wireless.enable = true;
+  networking.wireless.userControlled.enable = true;
   networking.networkmanager.enable = true;
-  networking.networkmanager.wifi.backend = "iwd";
   networking.networkmanager.plugins = with pkgs; [
     networkmanager-openvpn
     networkmanager-openconnect
@@ -106,7 +106,7 @@ in
   };
 
   hardware.bluetooth.enable = true; # enables support for Bluetooth
-  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+  # hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
 
   hardware.nvidia = {
 
