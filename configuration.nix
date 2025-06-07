@@ -92,13 +92,6 @@ in
     networkmanager-fortisslvpn
   ];
 
-  # Disable NetworkManager's internal DNS resolution
-  networking.networkmanager.dns = "none";
-
-  # These options are unnecessary when managing DNS ourselves
-  networking.useDHCP = false;
-  networking.dhcpcd.enable = false;
-
   # Intel Graphics
   hardware.graphics = {
     enable = true;
