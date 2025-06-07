@@ -237,6 +237,7 @@ in
     packages = with pkgs; [
       iwgtk
       wine
+      networkmanagerapplet
       localsend
       turso-cli
       httpie-desktop
