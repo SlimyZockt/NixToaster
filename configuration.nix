@@ -20,6 +20,7 @@ let
     gcc
     nodejs_20
     typescript
+    typescript-language-server
     air
     nil
     tailwindcss
@@ -249,7 +250,6 @@ in
       gnumake
       vscode
       libuchardet
-      typescript
       dissent
       discord-canary
       pandoc
