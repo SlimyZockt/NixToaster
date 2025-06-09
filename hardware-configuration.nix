@@ -39,10 +39,11 @@
       "dmask=0077"
     ];
   };
-  fileSystems."/media/volume1" = {
-    device = "/dev/disk/by-uuid/17b324f9-4394-528a-3c0b-35c16ba0b946";
-    fsType = "btrfs";
-  };
+
+  # fileSystems."/media/volume1" = {
+  #   device = "/dev/disk/by-uuid/17b324f9-4394-528a-3c0b-35c16ba0b946";
+  #   fsType = "btrfs";
+  # };
 
   fileSystems."/media/volume2" = {
     device = "/dev/disk/by-uuid/8a164099-5172-a1f7-5f10-d814ac92a669";

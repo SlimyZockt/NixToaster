@@ -365,6 +365,7 @@ in
       hyprpolkitagent
       slurp
       grim
+      btrfs-progs
       waypaper
       polychromatic
       adapta-kde-theme
