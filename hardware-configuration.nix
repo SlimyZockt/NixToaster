@@ -51,8 +51,8 @@
     options = [
       "rw"
       "uid=1000"
-      "dmask=022"
-      "fmask=133"
+      # "dmask=022"
+      # "fmask=133"
     ];
   };
 
