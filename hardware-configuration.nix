@@ -54,6 +54,7 @@
       "exec"
       "umask=000"
       "uid=1000"
+      "gid=100"
       # "dmask=022"
       # "fmask=133"
     ];
