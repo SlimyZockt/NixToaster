@@ -45,7 +45,7 @@
   #   fsType = "btrfs";
   # };
 
-  fileSystems."/media/volume1" = {
+  fileSystems."/media/volume4" = {
     device = "/dev/disk/by-uuid/E86E431C6E42E344";
     fsType = "ntfs-3g";
     options = [
