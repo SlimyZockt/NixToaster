@@ -45,6 +45,15 @@
   #   fsType = "btrfs";
   # };
 
+  fileSystems."/media/volume1" = {
+    device = "/dev/sdc1";
+    fsType = "ntfs-3g";
+    options = [
+      "rw"
+      # "uid=theUidOfYourUser"
+    ];
+  };
+
   fileSystems."/media/volume2" = {
     device = "/dev/disk/by-uuid/8a164099-5172-a1f7-5f10-d814ac92a669";
     fsType = "btrfs";
