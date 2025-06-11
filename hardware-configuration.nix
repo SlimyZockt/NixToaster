@@ -50,6 +50,9 @@
     fsType = "ntfs-3g";
     options = [
       "rw"
+      "user"
+      "exec"
+      "umask=000"
       "uid=1000"
       # "dmask=022"
       # "fmask=133"
