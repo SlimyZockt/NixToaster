@@ -136,7 +136,6 @@ in
         layout = "us";
         variant = "";
       };
-      videoDrivers = [ "nvidia" ];
     };
 
     displayManager.sddm.enable = true;
