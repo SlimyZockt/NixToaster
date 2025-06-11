@@ -50,7 +50,9 @@
     fsType = "ntfs-3g";
     options = [
       "rw"
-      # "uid=theUidOfYourUser"
+      "uid=100"
+      "dmask=022"
+      "fmask=133"
     ];
   };
 
