@@ -445,6 +445,7 @@ in
 
   boot.extraModulePackages = with config.boot.kernelPackages; [ v4l2loopback ];
   boot.kernelModules = [ "v4l2loopback" ];
+  boot.supportedFilesystems = [ "ntfs" ];
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ 53317 ];
   # networking.firewall.allowedUDPPorts = [ 53317 ];
