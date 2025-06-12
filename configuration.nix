@@ -141,9 +141,6 @@ in
       };
       videoDrivers = [ "amdgpu" ];
     };
-    systemd.tmpfiles.rules = [
-      "L+    /opt/rocm/hip   -    -    -     -    ${pkgs.rocmPackages.clr}"
-    ];
 
     displayManager.sddm.enable = true;
     desktopManager.plasma6.enable = true;
