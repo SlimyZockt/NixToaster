@@ -96,12 +96,15 @@ in
   # Intel Graphics
   hardware.graphics = {
     enable = true;
-    # extraPackages = with pkgs; [
-    # your Open GL, Vulkan and VAAPI drivers
-    # vpl-gpu-rt # for newer GPUs on NixOS >24.05 or unstable
-    # onevpl-intel-gpu  # for newer GPUs on NixOS <= 24.05
-    # intel-media-sdk   # for older GPUs
-    # ];
+    extraPackages = with pkgs; [
+      # your Open GL, Vulkan and VAAPI drivers
+      # vpl-gpu-rt # for newer GPUs on NixOS >24.05 or unstable
+      # onevpl-intel-gpu  # for newer GPUs on NixOS <= 24.05
+      # intel-media-sdk   # for older GPUs
+
+      rocmPackages.clr.icd
+    ];
+    enable32Bit = true;
   };
 
   hardware.bluetooth.enable = true; # enables support for Bluetooth
@@ -136,7 +139,11 @@ in
         layout = "us";
         variant = "";
       };
+      videoDrivers = [ "amdgpu" ];
     };
+    systemd.tmpfiles.rules = [
+      "L+    /opt/rocm/hip   -    -    -     -    ${pkgs.rocmPackages.clr}"
+    ];
 
     displayManager.sddm.enable = true;
     desktopManager.plasma6.enable = true;
@@ -203,6 +210,7 @@ in
     ];
     packages = with pkgs; [
       iwgtk
+      clinfo
       wine
       networkmanagerapplet
       localsend
@@ -212,6 +220,7 @@ in
       playerctl
       blockbench
       blender
+      comma
       itch
       feh
       pamixer
