@@ -224,6 +224,7 @@ in
       pamixer
       gnumake
       vscode
+      code-cursor
       libuchardet
       dissent
       discord-canary
