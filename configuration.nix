@@ -35,6 +35,7 @@ let
     odin
     ols
     zig
+    gradle
     jdk23
     jdt-language-server
     hyprls
