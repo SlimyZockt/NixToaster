@@ -148,7 +148,7 @@ in
       videoDrivers = [ "amdgpu" ];
     };
 
-    displayManager.sddm.enable = true;
+    displayManager.gdm.enable = true;
     desktopManager.plasma6.enable = true;
     blueman.enable = true;
     logmein-hamachi.enable = true;
@@ -290,16 +290,6 @@ in
       defaultEditor = true;
       viAlias = true;
       vimAlias = true;
-    };
-
-    hyprland = {
-      enable = true;
-      xwayland.enable = true;
-      # set the flake package
-      package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
-      # make sure to also set the portal package, so that they are in sync
-      portalPackage =
-        inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
     };
 
     git = {
