@@ -65,12 +65,6 @@ let
     vscode-langservers-extracted
   ];
 
-  niri = with pkgs; [
-    fuzzel
-    alacritty
-    xwayland-satellite
-  ];
-
 in
 {
   imports = [
@@ -387,6 +381,7 @@ in
       cloc
       networkmanager-openvpn
       gparted
+      xwayland-satellite
     ]
     ++ progLangauge;
 
