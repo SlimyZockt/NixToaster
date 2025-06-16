@@ -254,6 +254,7 @@ in
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   programs = {
+    niri.enable = true;
     fish.enable = true;
     light.enable = true;
     nix-ld.enable = true;
