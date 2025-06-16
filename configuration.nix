@@ -376,6 +376,7 @@ in
       kdePackages.qt6ct
       themechanger
       hyprpicker
+      tesseract
       openvpn
       swww
       mpvpaper
