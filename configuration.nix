@@ -310,7 +310,9 @@ in
   };
 
   xdg.portal.extraPortals = with pkgs; [
-    xdg-desktop-portal-gnome
+    xdg-desktop-portal-gtk
+    xdg-desktop-portal-kde
+    xdg-desktop-portal-cosmic
   ];
 
   # List packages installed in system profile. To search, run:
