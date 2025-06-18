@@ -309,6 +309,10 @@ in
     nm-applet.enable = true;
   };
 
+  xdg.portal.extraPortals = with pkgs; [
+    xdg-desktop-portal-gnome
+  ];
+
   # List packages installed in system profile. To search, run:
   environment.systemPackages =
     with pkgs;
