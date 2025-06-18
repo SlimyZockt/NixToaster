@@ -317,6 +317,7 @@ in
       openconnect
       libreoffice
       brave
+      firefox
       netflix
       jq
       tmux-sessionizer
