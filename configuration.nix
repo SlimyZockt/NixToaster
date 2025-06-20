@@ -313,8 +313,6 @@ in
 
   xdg.portal.extraPortals = with pkgs; [
     xdg-desktop-portal-gtk
-    xdg-desktop-portal-hyprland
-    xdg-desktop-portal-cosmic
   ];
 
   # List packages installed in system profile. To search, run:
@@ -384,6 +382,7 @@ in
       miru
       kdePackages.qtstyleplugin-kvantum
       kdePackages.qt6ct
+      nautilus
       themechanger
       hyprpicker
       tesseract
