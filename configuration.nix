@@ -144,6 +144,7 @@ in
       videoDrivers = [ "amdgpu" ];
     };
 
+    tumbler.enable = true;
     displayManager.gdm.enable = true;
     desktopManager.plasma6.enable = true;
     blueman.enable = true;
