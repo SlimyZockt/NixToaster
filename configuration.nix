@@ -210,6 +210,7 @@ in
     ];
     packages = with pkgs; [
       iwgtk
+      dunst
       clinfo
       wine
       networkmanagerapplet
