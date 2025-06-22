@@ -312,6 +312,7 @@ in
     [
       mangohud
       polkit_gnome
+      gnome-keyring
       polkit
       openconnect
       libreoffice
