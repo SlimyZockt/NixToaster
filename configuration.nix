@@ -149,7 +149,6 @@ in
     logmein-hamachi.enable = true;
     getty.autologinUser = "myt";
 
-    gnome.gnome-keyring.enable = true; # Enable the OpenSSH daemon.
     openssh.enable = true;
 
     # Thunderbolt
@@ -161,7 +160,7 @@ in
 
     # Auto Mount
     udisks2.enable = true;
-
+    gnome.gnome-keyring.enable = true;
     # Enable sound with pipewire.
     pulseaudio.enable = false;
     pipewire = {
@@ -183,7 +182,6 @@ in
   # Configure console keymap
   console.keyMap = "us";
 
-  services.gnome.gnome-keyring.enable = true;
   security.rtkit.enable = true;
   swapDevices = [
     {
