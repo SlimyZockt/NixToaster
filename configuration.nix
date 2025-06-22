@@ -143,7 +143,7 @@ in
       videoDrivers = [ "amdgpu" ];
     };
 
-    displayManager.sddm.enable = true;
+    displayManager.gdm.enable = true;
     desktopManager.gnome.enable = true;
     blueman.enable = true;
     logmein-hamachi.enable = true;
@@ -417,7 +417,7 @@ in
   # };
 
   security.polkit.enable = true;
-
+  security.pam.services.gdm.enableGnomeKeyring = true;
   boot.extraModulePackages = with config.boot.kernelPackages; [ v4l2loopback ];
   boot.kernelModules = [ "v4l2loopback" ];
   boot.supportedFilesystems = [ "ntfs" ];
