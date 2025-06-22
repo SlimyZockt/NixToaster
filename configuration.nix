@@ -143,8 +143,8 @@ in
       videoDrivers = [ "amdgpu" ];
     };
 
-    displayManager.gdm.enable = true;
-    desktopManager.plasma6.enable = true;
+    displayManager.sddm.enable = true;
+    desktopManager.gnome.enable = true;
     blueman.enable = true;
     logmein-hamachi.enable = true;
     getty.autologinUser = "myt";
@@ -183,7 +183,7 @@ in
   # Configure console keymap
   console.keyMap = "us";
 
-  # services.gnome.gnome-keyring.enable = true;
+  services.gnome.gnome-keyring.enable = true;
   security.rtkit.enable = true;
   swapDevices = [
     {
