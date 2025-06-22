@@ -149,7 +149,7 @@ in
     logmein-hamachi.enable = true;
     getty.autologinUser = "myt";
 
-    gnome3.gnome-keyring.enable = true; # Enable the OpenSSH daemon.
+    gnome.gnome-keyring.enable = true; # Enable the OpenSSH daemon.
     openssh.enable = true;
 
     # Thunderbolt
