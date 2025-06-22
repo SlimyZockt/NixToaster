@@ -144,9 +144,8 @@ in
       videoDrivers = [ "amdgpu" ];
     };
 
-    tumbler.enable = true;
     displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
+    desktopManager.plasma6.enable = true;
     blueman.enable = true;
     logmein-hamachi.enable = true;
     getty.autologinUser = "myt";
@@ -210,7 +209,6 @@ in
     ];
     packages = with pkgs; [
       iwgtk
-      dunst
       clinfo
       wine
       networkmanagerapplet
@@ -382,7 +380,6 @@ in
       miru
       kdePackages.qtstyleplugin-kvantum
       kdePackages.qt6ct
-      nautilus
       themechanger
       hyprpicker
       tesseract
