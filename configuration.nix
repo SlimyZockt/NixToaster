@@ -149,7 +149,7 @@ in
     logmein-hamachi.enable = true;
     getty.autologinUser = "myt";
 
-    # Enable the OpenSSH daemon.
+    gnome3.gnome-keyring.enable = true; # Enable the OpenSSH daemon.
     openssh.enable = true;
 
     # Thunderbolt
@@ -317,6 +317,9 @@ in
     with pkgs;
     [
       mangohud
+      polkit_gnome
+      polkit
+      polkit-kde-agent
       openconnect
       libreoffice
       brave
@@ -334,7 +337,6 @@ in
       clipboard-jh
       yaru-theme
       waybar
-      hyprpolkitagent
       slurp
       grim
       btrfs-progs
@@ -389,7 +391,6 @@ in
       networkmanager-openvpn
       gparted
       xwayland-satellite
-      polkit_gnome
     ]
     ++ progLangauge;
 
