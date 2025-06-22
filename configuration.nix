@@ -317,7 +317,6 @@ in
       mangohud
       polkit_gnome
       polkit
-      polkit-kde-agent
       openconnect
       libreoffice
       brave
