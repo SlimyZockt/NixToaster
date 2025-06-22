@@ -417,7 +417,6 @@ in
   # };
 
   security.polkit.enable = true;
-  security.polkit.package = pkgs.hyprpolkitagent;
 
   boot.extraModulePackages = with config.boot.kernelPackages; [ v4l2loopback ];
   boot.kernelModules = [ "v4l2loopback" ];
