@@ -389,6 +389,7 @@ in
       networkmanager-openvpn
       gparted
       xwayland-satellite
+      polkit_gnome
     ]
     ++ progLangauge;
 
