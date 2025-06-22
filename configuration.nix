@@ -146,7 +146,7 @@ in
 
     tumbler.enable = true;
     displayManager.gdm.enable = true;
-    desktopManager.plasma6.enable = true;
+    desktopManager.gnome.enable = true;
     blueman.enable = true;
     logmein-hamachi.enable = true;
     getty.autologinUser = "myt";
