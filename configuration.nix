@@ -209,6 +209,7 @@ in
       clinfo
       wine
       networkmanagerapplet
+      linux-wallpaperengine
       localsend
       turso-cli
       httpie-desktop
