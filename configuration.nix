@@ -313,6 +313,7 @@ in
     [
       mangohud
       polkit_gnome
+      inotify-tools
       gnome-keyring
       polkit
       openconnect
