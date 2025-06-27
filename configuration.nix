@@ -313,6 +313,7 @@ in
     with pkgs;
     [
       mangohud
+      gstramer
       polkit_gnome
       inotify-tools
       gnome-keyring
