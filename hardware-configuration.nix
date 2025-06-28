@@ -60,6 +60,21 @@
     ];
   };
 
+  fileSystems."/media/volume1" = {
+    device = "/dev/disk/by-uuid/EE96E6CC96E6947D";
+    fsType = "ntfs-3g";
+    options = [
+      "rw"
+      "user"
+      "exec"
+      "umask=000"
+      "uid=1000"
+      "gid=100"
+      # "dmask=022"
+      # "fmask=133"
+    ];
+  };
+
   fileSystems."/media/volume2" = {
     device = "/dev/disk/by-uuid/8a164099-5172-a1f7-5f10-d814ac92a669";
     fsType = "btrfs";
