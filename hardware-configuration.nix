@@ -40,41 +40,6 @@
     ];
   };
 
-  # fileSystems."/media/volume1" = {
-  #   device = "/dev/disk/by-uuid/17b324f9-4394-528a-3c0b-35c16ba0b946";
-  #   fsType = "btrfs";
-  # };
-
-  fileSystems."/media/volume4" = {
-    device = "/dev/disk/by-uuid/E86E431C6E42E344";
-    fsType = "ntfs-3g";
-    options = [
-      "rw"
-      "user"
-      "exec"
-      "umask=000"
-      "uid=1000"
-      "gid=100"
-      # "dmask=022"
-      # "fmask=133"
-    ];
-  };
-
-  fileSystems."/media/volume1" = {
-    device = "/dev/disk/by-uuid/";
-    fsType = "ntfs-3g";
-    options = [
-      "rw"
-      "user"
-      "exec"
-      "umask=000"
-      "uid=1000"
-      "gid=100"
-      # "dmask=022"
-      # "fmask=133"
-    ];
-  };
-
   swapDevices = [ ];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
