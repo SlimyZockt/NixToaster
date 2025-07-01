@@ -322,7 +322,7 @@ in
       libreoffice
       hunspell
       hunspellDicts.en_US
-      hunspellDicts.en_DE
+      hunspellDicts.de_DE
       hunspellDicts
       hunspellDicts
       brave
