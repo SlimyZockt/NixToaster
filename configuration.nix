@@ -321,8 +321,8 @@ in
       openconnect
       libreoffice-qt
       hunspell
-      hunspellDicts
-      hunspellDicts
+      hunspellDicts.en_US
+      hunspellDicts.de_DE
       brave
       firefox
       netflix
