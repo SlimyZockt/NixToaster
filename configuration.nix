@@ -1,5 +1,5 @@
 # f sfEdit this configuration file to define what should be installed on
-# your system.  Help is available in the configuration.nix(5) man page.
+# system.  Help is available in the configuration.nix(5) man page.
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 {
   config,
@@ -321,8 +321,6 @@ in
       openconnect
       libreoffice-qt
       hunspell
-      hunspellDicts.en_US
-      hunspellDicts.de_DE
       hunspellDicts
       hunspellDicts
       brave
