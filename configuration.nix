@@ -158,6 +158,8 @@ in
     # Enable CUPS to print documents.
     printing.enable = true;
 
+    languagetool.enable = true;
+
     # Auto Mount
     udisks2.enable = true;
     gnome.gnome-keyring.enable = true;
@@ -318,6 +320,11 @@ in
       polkit
       openconnect
       libreoffice
+      hunspell
+      hunspellDicts.en_US
+      hunspellDicts.en_DE
+      hunspellDicts
+      hunspellDicts
       brave
       firefox
       netflix
