@@ -319,7 +319,7 @@ in
       gnome-keyring
       polkit
       openconnect
-      libreoffice
+      libreoffice-qt
       hunspell
       hunspellDicts.en_US
       hunspellDicts.de_DE
