@@ -223,6 +223,7 @@ in
       itch
       feh
       pamixer
+      camunda-modeler
       gnumake
       vscode
       code-cursor
