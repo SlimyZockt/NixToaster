@@ -177,6 +177,8 @@ in
       # no need to redefine it in your config for now)
       #media-session.enable = true;
     };
+
+    hardware.openrgb.enable = true;
   };
 
   nix.settings.experimental-features = "nix-command flakes";
@@ -381,6 +383,7 @@ in
       blueman
       killall
       miru
+      openrgb
       kdePackages.qtstyleplugin-kvantum
       kdePackages.qt6ct
       themechanger
