@@ -357,6 +357,7 @@ in
       lf
       aseprite
       dracula-icon-theme
+      easyroam-connect-desktop
       fastfetch
       nwg-look
       libsForQt5.qt5ct
