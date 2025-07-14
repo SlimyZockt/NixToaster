@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -e
 
 DIR=$(dirname $(readlink -f $0))
 pushd $DIR
