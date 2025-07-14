@@ -13,6 +13,7 @@ let
     bun
     go
     vue-language-server
+    vtsls
     astro-language-server
     gccgo
     java-language-server
