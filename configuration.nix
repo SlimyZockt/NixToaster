@@ -12,6 +12,7 @@ let
   progLangauge = with pkgs; [
     bun
     go
+    vue-language-server
     astro-language-server
     gccgo
     java-language-server
