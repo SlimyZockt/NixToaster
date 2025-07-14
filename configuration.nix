@@ -217,6 +217,7 @@ in
       turso-cli
       httpie-desktop
       httpie
+      geteduroam
       playerctl
       blockbench
       blender
