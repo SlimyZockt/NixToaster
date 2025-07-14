@@ -139,7 +139,7 @@ in
       xkb = {
         layout = "de";
         variant = "";
-        xkb.options = "caps:swapescape";
+        options = "caps:swapescape";
       };
     };
 
@@ -178,13 +178,12 @@ in
       #media-session.enable = true;
     };
 
-    hardware.openrgb.enable = true;
   };
 
   nix.settings.experimental-features = "nix-command flakes";
 
   # Configure console keymap
-  console.keyMap = "us";
+  console.keyMap = "de";
 
   security.rtkit.enable = true;
   swapDevices = [
