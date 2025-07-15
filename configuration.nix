@@ -366,7 +366,6 @@ in
         yarn
       ];
 
-      extraLuaPackages = ls: with ls; [ luarocks ];
     };
 
     git = {
