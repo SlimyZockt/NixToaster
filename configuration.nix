@@ -126,19 +126,6 @@ in
     ./hardware-configuration.nix
   ];
 
-  home.packages = with pkgs; [
-    patchelf
-    nvim-depends-include
-    nvim-depends-library
-    nvim-depends-pkgconfig
-    ripgrep
-  ];
-  home.extraOutputsToInstall = "nvim-depends";
-  home.shellAliases.nvim =
-    (concatStringsSep " " buildEnv)
-    + " SQLITE_CLIB_PATH=${pkgs.sqlite.out}/lib/libsqlite3.so "
-    + "nvim";
-
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -274,6 +261,11 @@ in
     ];
     packages = with pkgs; [
       iwgtk
+      patchelf
+      nvim-depends-include
+      nvim-depends-library
+      nvim-depends-pkgconfig
+      ripgrep
       clinfo
       wine
       networkmanagerapplet
