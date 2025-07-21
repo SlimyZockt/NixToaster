@@ -195,7 +195,9 @@ in
   ];
 
   virtualisation.docker.enable = true;
-
+  services.udev.packages = with pkgs; [
+    via
+  ];
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.myt = {
     isNormalUser = true;
@@ -247,8 +249,6 @@ in
       mgba
       rgbds
       parallel
-      via
-      vial
     ];
   };
 
