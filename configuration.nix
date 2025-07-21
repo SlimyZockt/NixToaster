@@ -214,6 +214,7 @@ in
       iwgtk
       clinfo
       wine
+      via
       networkmanagerapplet
       linux-wallpaperengine
       localsend
