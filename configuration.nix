@@ -247,6 +247,8 @@ in
       mgba
       rgbds
       parallel
+      via
+      vial
     ];
   };
 
