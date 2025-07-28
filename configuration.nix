@@ -217,6 +217,7 @@ in
       wine
       via
       networkmanagerapplet
+      whitebox-tools
       linux-wallpaperengine
       localsend
       turso-cli
