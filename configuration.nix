@@ -252,6 +252,7 @@ in
       mgba
       rgbds
       parallel
+      gf
     ];
   };
 
