@@ -250,6 +250,10 @@ in
       gimp3
       lxde.lxtask
       mgba
+      typst
+      typst-lsp
+      typst-preview
+      typst-live
       rgbds
       parallel
       gf
