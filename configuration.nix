@@ -250,7 +250,7 @@ in
       lxde.lxtask
       mgba
       typst
-      typst-lsp
+      tinymist
       typst-preview
       typst-live
       rgbds
