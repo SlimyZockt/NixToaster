@@ -64,6 +64,8 @@ let
     gdtoolkit_4
     isort
     vscode-langservers-extracted
+    c3c
+    c3-lsp
   ];
 
 in
