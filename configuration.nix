@@ -13,6 +13,8 @@ let
     go
     astro-language-server
     gccgo
+    csharp-ls
+    dotnet-sdk
     java-language-server
     kotlin-language-server
     gopls
@@ -379,6 +381,7 @@ in
       fuzzel
       wtype
       jetbrains.idea-ultimate
+      jetbrains.rider
       jetbrains.pycharm-professional
       jetbrains.clion
       bottles
