@@ -15,7 +15,6 @@ let
     gccgo
     csharp-ls
     dotnet-sdk
-    dotnetCorePackages.sdk_3_1
     java-language-server
     kotlin-language-server
     gopls
