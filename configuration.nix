@@ -301,7 +301,7 @@ in
       defaultEditor = true;
       viAlias = true;
       vimAlias = true;
-      # package = inputs.neovim-nightly-overlay.packages.${pkgs.system}.default;
+      package = inputs.neovim-nightly-overlay.packages.${pkgs.system}.default;
     };
 
     git = {
