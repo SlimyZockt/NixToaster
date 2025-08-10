@@ -219,6 +219,7 @@ in
       iwgtk
       clinfo
       wine
+      walker
       via
       networkmanagerapplet
       whitebox-tools
