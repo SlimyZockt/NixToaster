@@ -404,7 +404,6 @@ in
       themechanger
       hyprpicker
       tesseract
-      walker
       openvpn
       swww
       mpvpaper
