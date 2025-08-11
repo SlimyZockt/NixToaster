@@ -257,7 +257,6 @@ in
       mgba
       typst
       tinymist
-      typst-live
       rgbds
       parallel
       gf
