@@ -440,6 +440,9 @@ in
 
   systemd = {
     coredump.enable = true;
+    user.services.waybar = {
+enable = true; 
+};
     user.services.polkit-gnome-authentication-agent-1 = {
       description = "polkit-gnome-authentication-agent-1";
       wantedBy = [ "graphical-session.target" ];
