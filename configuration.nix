@@ -67,6 +67,7 @@ let
     gdtoolkit_4
     isort
     vscode-langservers-extracted
+    tinymist
     c3c
     c3-lsp
   ];
@@ -256,7 +257,6 @@ in
       lxde.lxtask
       mgba
       typst
-      tinymist
       rgbds
       parallel
       gf
