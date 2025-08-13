@@ -260,6 +260,7 @@ in
       rgbds
       parallel
       gf
+      jekyll
     ];
   };
 
