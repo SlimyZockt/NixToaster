@@ -147,10 +147,10 @@ in
         variant = "";
       };
       videoDrivers = [ "amdgpu" ];
+      displayManager.gdm.enable = true;
+      desktopManager.gnome.enable = true;
     };
 
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
     blueman.enable = true;
     logmein-hamachi.enable = true;
     getty.autologinUser = "myt";
