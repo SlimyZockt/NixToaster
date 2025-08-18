@@ -261,6 +261,7 @@ in
       parallel
       gf
       opencode
+      lmstudio
       ruby
       jekyll
     ];
