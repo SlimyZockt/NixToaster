@@ -262,6 +262,7 @@ in
       gf
       opencode
       lmstudio
+      ollama
       ruby
       jekyll
     ];
