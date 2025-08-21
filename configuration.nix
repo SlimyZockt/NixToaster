@@ -72,7 +72,7 @@ let
     c3-lsp
   ];
 
-  wgpu-native-static = pkgs.odin.overrideAttrs (old: {
+  wgpu-native-static = pkgs.wgpu-native.overrideAttrs (old: {
     postInstall = ''
       install -Dm644 ./ffi/wgpu.h -t $dev/include/webgpu
       install -Dm644 ./ffi/webgpu-headers/webgpu.h -t $dev/include/webgpu
