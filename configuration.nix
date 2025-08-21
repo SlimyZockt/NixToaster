@@ -72,6 +72,13 @@ let
     c3-lsp
   ];
 
+  wgpu-native-static = pkgs.odin.overrideAttrs (old: {
+    postInstall = ''
+      install -Dm644 ./ffi/wgpu.h -t $dev/include/webgpu
+      install -Dm644 ./ffi/webgpu-headers/webgpu.h -t $dev/include/webgpu
+    '';
+  });
+
 in
 {
   imports = [
@@ -216,58 +223,63 @@ in
       "ratbagd"
       "docker"
     ];
-    packages = with pkgs; [
-      iwgtk
-      clinfo
-      wine
-      walker
-      via
-      networkmanagerapplet
-      whitebox-tools
-      linux-wallpaperengine
-      localsend
-      turso-cli
-      httpie-desktop
-      httpie
-      playerctl
-      blockbench
-      blender
-      comma
-      itch
-      feh
-      pamixer
-      camunda-modeler
-      gnumake
-      vscode
-      code-cursor
-      libuchardet
-      dissent
-      discord-canary
-      pandoc
-      texliveTeTeX
-      typora
-      htop
-      weylus
-      ghostty
-      legcord
-      winetricks
-      protontricks
-      protonup-qt
-      gimp3
-      lxde.lxtask
-      mgba
-      typst
-      rgbds
-      parallel
-      gf
-      opencode
-      lmstudio
-      ollama
-      wgpu-native
-      wgpu-utils
-      ruby
-      jekyll
-    ];
+    packages =
+      with pkgs;
+      [
+        iwgtk
+        clinfo
+        wine
+        walker
+        via
+        networkmanagerapplet
+        whitebox-tools
+        linux-wallpaperengine
+        localsend
+        turso-cli
+        httpie-desktop
+        httpie
+        playerctl
+        blockbench
+        blender
+        comma
+        itch
+        feh
+        pamixer
+        camunda-modeler
+        gnumake
+        vscode
+        code-cursor
+        libuchardet
+        dissent
+        discord-canary
+        pandoc
+        texliveTeTeX
+        typora
+        htop
+        weylus
+        ghostty
+        legcord
+        winetricks
+        protontricks
+        protonup-qt
+        gimp3
+        lxde.lxtask
+        mgba
+        typst
+        rgbds
+        parallel
+        gf
+        opencode
+        lmstudio
+        ollama
+        # wgpu-native
+        wgpu-utils
+        ruby
+        jekyll
+      ]
+      ++ [
+        wgpu-native-static
+      ];
   };
 
   environment.sessionVariables = {
