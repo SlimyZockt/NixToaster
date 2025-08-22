@@ -35,7 +35,7 @@ let
     sqlite
     goose
     ninja
-    odin
+    # odin
     ols
     zig
     gradle
