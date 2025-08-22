@@ -272,10 +272,11 @@ in
         opencode
         lmstudio
         ollama
-        # wgpu-native
         wgpu-utils
         ruby
         jekyll
+        distrobox
+        distrobox-tui
       ]
       ++ [
         wgpu-native-static
