@@ -67,6 +67,8 @@ let
     gdtoolkit_4
     isort
     vscode-langservers-extracted
+    R
+    rstudio
   ];
 
 in
